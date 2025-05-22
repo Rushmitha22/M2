@@ -216,7 +216,7 @@ d.	After the loop, print the factorial value.
 ## PROGRAM:
 ```
 #include<stdio.h>
-int main()
+int fact()
 {
     int n,fact=1;
     scanf("%d",&n);
@@ -227,6 +227,11 @@ int main()
     printf("Factorial value is: %d",fact);
     return 0;
 }
+int main()
+{
+    fact();
+}
+
 ```
 
 
